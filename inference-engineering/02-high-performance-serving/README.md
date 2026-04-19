@@ -14,9 +14,12 @@
 
 ## Resources & Books
 
-| Type | Title | Description |
-|---|---|---|
-| Documentation | [vLLM Architecture Deep Dive](https://example.com) | Official vLLM docs |
-| Technical Blog | [NVIDIA Technical Blog: An Introduction to Speculative Decoding (EAGLE-3)](https://example.com) | In-depth article |
-| Open Source | Study the source code of SGLang and its RadixAttention implementation |
-| Research Paper | [Efficiently Serving LLMs through PagedAttention](https://example.com) | The original vLLM paper |
+For convenience, key papers and documentation have been downloaded to the **[resources/](./resources/)** directory. See **[Resources.md](./resources/Resources.md)** for a full index.
+
+- **[NEW] [Local Resource Index](./resources/Resources.md)**
+- **Technical Blog:** [NVIDIA Technical Blog: An Introduction to Speculative Decoding (EAGLE-3)](https://developer.nvidia.com/blog/introduction-to-speculative-decoding/)
+- **Documentation:** [vLLM Architecture Deep Dive](https://docs.vllm.ai/en/latest/)
+- **Paper:** [Efficiently Serving LLMs through PagedAttention](./resources/paged_attention.pdf)
+- **Paper:** [EAGLE: Speculative Decoding with Lookahead Batching](./resources/eagle_speculative_decoding.pdf)
+- **Paper:** [SGLang: Efficiently Serving LLMs with RadixAttention](./resources/sglang_radix_attention.pdf)
+

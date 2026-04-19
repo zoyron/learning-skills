@@ -14,9 +14,12 @@
 
 ## Resources & Books
 
-| Type | Title | Description |
-|---|---|---|
-| Handbook | LLM Inference Handbook by BentoML | Comprehensive guide on quantization |
-| GitHub | AutoGPTQ and AutoAWQ repositories | Repositories for quantization tools |
-| Documentation | NVIDIA TensorRT-Model Optimizer (ModelOpt) API | Official API documentation |
-| Course | DeepLearning.ai: Compressed and Efficient AI Systems | Educational course |
+For convenience, key papers and documentation have been downloaded to the **[resources/](./resources/)** directory. See **[Resources.md](./resources/Resources.md)** for a full index.
+
+- **[NEW] [Local Resource Index](./resources/Resources.md)**
+- **Technical Whitepaper:** [NVIDIA Blackwell Architecture Whitepaper](./resources/nvidia_blackwell_architecture_whitepaper.pdf)
+- **Handbook:** [BentoML: LLM Inference Handbook](https://bentoml.com/blog/llm-inference-handbook)
+- **Paper:** [SmoothQuant: Post-Training Quantization for LLMs](./resources/smooth_quant.pdf)
+- **Paper:** [GPTQ: Post-Training Quantization for Generative Pre-trained Transformers](./resources/gptq.pdf)
+- **Paper:** [NVIDIA Blackwell Whitepaper](./resources/nvidia_blackwell_architecture_whitepaper.pdf)
+- **Toolkit:** [NVIDIA TensorRT-Model Optimizer (ModelOpt)](https://nvidia.github.io/TensorRT-ModelOptimizer/)

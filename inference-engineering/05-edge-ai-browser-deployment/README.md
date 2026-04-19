@@ -10,12 +10,15 @@ Running the world's most powerful models on a phone or a laptop with zero cloud 
 - **Thermal Throttling Management:** Learn to monitor chip temperature and dynamically switch to a smaller "Draft" model if the device gets too hot.
 
 ## Resources & Books
-| Resource Type | Description |
-| --- | --- |
-| Framework | Apple Machine Learning Research: MLX Documentation |
-| Tutorial | WebGPU for AI Inference (Available on core.cz or Google Developer blogs) |
-| Documentation | ExecuTorch 1.0 GA Documentation (Meta) |
-| Project | Study the llama.cpp source code. It is the gold standard for portable, CPU-based inference |
+
+For convenience, key papers and documentation have been downloaded to the **[resources/](./resources/)** directory. See **[Resources.md](./resources/Resources.md)** for a full index.
+
+- **[NEW] [Local Resource Index](./resources/Resources.md)**
+- **Framework:** [Apple MLX Framework](https://ml-explore.github.io/mlx/)
+- **Framework:** [ExecuTorch Documentation (Meta)](https://pytorch.org/executorch/stable/index.html)
+- **Paper:** [LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](./resources/llm_int8_quantization.pdf)
+- **Open Source:** [llama.cpp GitHub](https://github.com/ggerganov/llama.cpp)
+- **Guide:** [WebGPU for AI Inference (web.dev)](https://web.dev/articles/gpu-compute)
 
 ## Final HFT Insight
 > In HFT, the best code is the code that never runs. In Inference, the best optimization is the token that never has to be computed. Use caching and speculative decoding to cheat the system.
